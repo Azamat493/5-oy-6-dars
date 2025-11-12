@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --blue-main: #0089bd;
+  --font-family: "Kanit", sans-serif;
+  --font-second-family: "Syne", sans-serif;
+  --font-third-family: "Inter", sans-serif;
+  --breakpoint-lgg: 67rem; /* 1072 */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip; 
+}
+body {
+  background-image: url(../src/assets/images/Rectangle1.png);
+}
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #1e40af #dbeafe; 
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 8px; 
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #dbeafe; 
+  border-radius: 9999px; 
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #1e40af; 
+  border-radius: 9999px;
+  border: 2px solid #dbeafe;
+  transition: background-color 0.3s ease;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb; 
+}
+.scroll-hid {
+    -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.scrollbar-hid::-webkit-scrollbar {
+  display: none;        
+}
