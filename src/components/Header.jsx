@@ -123,9 +123,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-
-        {/* Desktop Button */}
-        <button className="hidden md:flex w-[135px] h-[45px] px-5 py-3 rounded-2xl flex cursor-pointer items-center justify-center bg-[#018abe] hover:bg-blue-700 transition-colors">
+        <button className="hidden md:flex w-[135px] h-[45px] px-5 py-3 font-bold text-xs leading-[170%] tracking-[-0.02em] uppercase text-center text-white font-second-family rounded-2xl flex cursor-pointer items-center justify-center bg-[#018abe] hover:bg-blue-700 transition-colors">
           GET STARTED
         </button>
       </header>

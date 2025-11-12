@@ -6,7 +6,7 @@ const ServicesAndBlogSection = () => {
   return (
     <div>
       <section className="bg-white py-12 md:py-16 px-4 md:px-6">
-        <div className="max-w-[1764px] mx-auto w-full">
+        <div className="max-w-[1764px] mx-auto w-[90%]">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="font-normal text-[48px] md:text-[78px] leading-[1.1] md:leading-[87%] text-center text-[#0c151c] font-family mb-2">
               Our services
@@ -71,7 +71,7 @@ const ServicesAndBlogSection = () => {
                   requirements and is sustainable to ensure future development
                   potential.
                 </p>
-                <div className="bg-[rgba(223,238,245,0.4)] sm:block hidden max-w-full md:max-w-[850px] relative flex w-full p-6 md:p-[50px_30px] rounded-[20px]">
+                <div className="bg-[rgba(223,238,245,0.4)] sm:block hidden max-w-full md:max-w-[750px] relative flex w-full p-6 md:p-[50px_30px] rounded-[20px]">
                   <div className="">
                     <h3 className="font-normal text-2xl md:text-4xl leading-[111%] uppercase text-[#0c151c] font-family mb-3">
                       SEO Optimisation
@@ -86,7 +86,7 @@ const ServicesAndBlogSection = () => {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[rgba(223,238,245,0.4)] sm:block hidden max-w-full md:max-w-[850px] relative flex w-full p-6 md:p-[50px_30px] rounded-[20px]">
+                <div className="bg-[rgba(223,238,245,0.4)] sm:block hidden max-w-full md:max-w-[750px] relative flex w-full p-6 md:p-[50px_30px] rounded-[20px]">
                   <div className="">
                     <h3 className="font-normal text-2xl md:text-4xl leading-[111%] uppercase text-[#0c151c] font-family mb-3">
                       PCC, SMM

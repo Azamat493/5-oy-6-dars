@@ -48,18 +48,18 @@ const CaseStudiesSection = () => {
 
   return (
       <section className="py-12  relative md:py-16 mt-5">
-          <div className="absolute top-[-20%] left-[-20%] z-0">
+          <div className="absolute top-[-20%] left-[-50%] z-0">
               <img src={Ellipse3} alt="" />
           </div>
-          <div className="absolute bottom-[-10%] right-[-20%] z-0">
+          <div className="absolute bottom-[-10%] right-[-20%] sm:block hidden z-0">
               <img src={Ellipse3} alt="" />
           </div>
-      <div className="max-w-[1764px] z-10 mx-auto w-[90%] md:w-screen">
-        <div className="text-center mb-8 md:mb-12">
-          <h1 className="font-bold text-xs md:text-base leading-[125%] uppercase text-white font-second-family">
+      <div className="max-w-[1764px] relative mx-auto  w-[90%] md:w-screen">
+        <div className="text-center z-10 mb-8 md:mb-12">
+          <h1 className="font-bold text-xs  md:text-base leading-[125%] uppercase text-white font-second-family">
             Our projects
           </h1>
-          <h2 className="font-normal text-[48px] md:text-[78px] leading-[1.1] md:leading-[87%] text-white font-family mb-4">
+          <h2 className="font-normal text-[48px]  md:text-[78px] leading-[1.1] md:leading-[87%] text-white font-family mb-4">
             Case studies
           </h2>
           <p className="font-light text-[16px] md:text-base leading-[150%] text-[rgba(255,255,255,0.7)] font-family max-w-[340px] md:max-w-[700px] mx-auto">
@@ -75,7 +75,7 @@ const CaseStudiesSection = () => {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="flex-none bg-[#0c151c] overflow-hidden w-[300px] md:w-[674px]"
+                className="flex-none overflow-hidden w-[300px] md:w-[674px]"
               >
                 <img
                   src={project.img}
