@@ -237,7 +237,7 @@ const IronSoftSection = () => {
               <h3 className="font-normal md:mt-0 mt-5 text-[44px] leading-[91%] text-center text-white font-family mb-4">
                 Get a free consultation
               </h3>
-              <button className="rounded-full flex justify-center items-center bg-white w-[78px] h-[78px] mt-4 md:mt-5 transition-transform hover:scale-110">
+              <button className="rounded-full cursor-pointer flex justify-center items-center bg-white w-[78px] h-[78px] mt-4 md:mt-5 transition-transform hover:scale-110">
                 <svg
                   width="21"
                   height="21"
