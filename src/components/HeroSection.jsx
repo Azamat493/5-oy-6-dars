@@ -31,7 +31,7 @@ const HeroSection = () => {
               </h1>
             </div>
 
-            <button className="bg-white md:mt-10 mt-0 font-normal text-2xl md:text-[44px] leading-[91%] text-[#0c151c] font-family border w-[300px] h-20 sm:w-full 2xl:w-[568px] sm:h-auto 2xl:h-[116px] px-11 md:px-11 py-[52px] rounded-[16px] sm:rounded-[20px] border-solid border-[#018abe] flex items-center gap-3 justify-between group">
+            <button className="bg-white md:mt-10 mt-0 font-normal text-2xl md:text-[44px] leading-[91%] text-[#0c151c] font-family border w-[300px] h-20 sm:w-full 2xl:w-[568px] sm:h-auto 2xl:h-[116px] px-4 md:px-11 py-[52px] rounded-[16px] sm:rounded-[20px] border-solid border-[#018abe] flex items-center gap-3 justify-center sm:justify-between group">
               <span>Check this now!</span>
               <svg
                 width="40"
