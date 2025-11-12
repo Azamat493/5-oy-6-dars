@@ -82,7 +82,7 @@ const CaseStudiesSection = () => {
                   alt={project.title}
                   className="w-full h-48 md:h-[450px] object-cover"
                 />
-                <div className="p-4 md:p-[24px_24px_24px_0]">
+                <div className="p-4 md:p-[24px_24px_24px_10px]">
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag, index) => (
                       <button
